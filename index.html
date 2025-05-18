@@ -10,14 +10,15 @@
   <div class="container">
     <h1>🎮 Biased Rock-Paper-Scissors</h1>
     <p class="subtitle">Inspired by "Weapons of Math Destruction"</p>
+    <div id="levelDisplay" class="level">Level: 1</div>
     <div class="scoreboard">
       <span id="playerScore">Player: 0</span>
       <span id="aiScore">AI: 0</span>
     </div>
     <div class="choices">
-      <button onclick="play('rock')">✊ Rock</button>
-      <button onclick="play('paper')">✋ Paper</button>
-      <button onclick="play('scissors')">✌️ Scissors</button>
+      <button class="choice-btn" onclick="play('rock')">✊ Rock</button>
+      <button class="choice-btn" onclick="play('paper')">✋ Paper</button>
+      <button class="choice-btn" onclick="play('scissors')">✌️ Scissors</button>
     </div>
     <div id="result" class="result">Make your move!</div>
   </div>
